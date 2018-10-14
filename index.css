@@ -50,3 +50,31 @@
     border-radius: 5px;
     line-height: 100px;
 }
+
+.modal {
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    left: 525px;
+    width: 291px;
+    height: 100px;
+    color: #000;
+    background: #ff0000;
+    border: 5px solid #000;
+}
+
+.modal.show {
+    display: block;
+}
+
+.modal.hide {
+    display: none;
+}
+
+.modal a {
+    text-align: center;
+    display: block;
+    background: #fff;
+    padding: 5px 50px;
+    text-decoration: none;
+}
